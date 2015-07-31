@@ -1,3 +1,11 @@
 @charset "shift_jis";
 @import url(reset.css);
-@import url(layout.css);
+
+/* Font */
+@import url(font-awesome.css);
+
+/* PC */
+@import url(layout.css) screen and (min-width:481px);
+
+/* SP */
+@import url(sp_layout.css) screen and (max-width:480px);
